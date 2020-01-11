@@ -126,7 +126,7 @@ class Robot_Setting():
                     1.0)
 
 def get_df(mode):
-    path =  '/Users/atok/workspace/research/2018/training/kinematics/BDinNarrativeScene/GPy-result/6D/' + mode + '/sub01-09/Posterior/df' + mode + 'joint_angles.csv'
+    path =  '~/workspace/research/2018/training/kinematics/BDinNarrativeScene/GPy-result/6D/' + mode + '/sub01-09/Posterior/df' + mode + 'joint_angles.csv'
     return pd.read_csv(path)
 
 if __name__ == "__main__":
